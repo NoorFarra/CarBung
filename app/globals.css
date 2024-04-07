@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Madimi+One&family=Noto+Serif:wght@300&family=Open+Sans&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .amimation-delay-2000 {
+        animation-delay: 2s;
+    }
+
+    .amimation-delay-4000 {
+        animation-delay: 4s;
+    }
+}
