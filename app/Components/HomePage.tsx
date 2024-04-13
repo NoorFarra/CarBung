@@ -18,7 +18,7 @@ const HomePage = () => {
   return (
     <div className=' w-full  border-b-2 border-slate-500
     h-[93vh] bg-slate-300 flex flex-col sm:flex-row items-center justify-center '>
-     <div className='w-1/2 h-full flex items-center justify-center flex-col gap-[4vh] '>
+     <div className='w-1/2 h-full flex items-center justify-center flex-col gap-[4vh] pt-[10vh] sm:pt-0 '>
           <h1 className='text-[3.36vh] sm:text-[8vh] font-logoFont '><span className=' text-blue-500  '>Buy, Sell, </span>With the<br /> best Price!</h1>
           <p className='text-[2vh] text-center sm:text-[3vh] text-slate-600 font-logoFont animate-blob '>Find the best Offers by the best Dealers!</p>
       <div className='w-full sm:h-[8vh] flex sm:flex-row flex-col justify-center items-center gap-5'>
@@ -46,7 +46,7 @@ const HomePage = () => {
      <div className='sm:w-1/2 h-full  sm:flex items-center justify-center flex-col'>
       
         <HomeBackG />
-        <div className='w-full  flex justify-center items-center z-10'>
+        <div className='w-full h-[50vh]  flex justify-center items-center z-10'>
           <Image src={Car} alt='car' className='sm:w-[85vh] w-[95%] h-[32vh] z-20 sm:h-[50vh]'></Image>
         </div>
         
